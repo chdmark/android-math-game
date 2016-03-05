@@ -3,6 +3,8 @@ package com.christopherdmark.mathsample2;
 import android.os.Bundle;
 
 import android.support.v7.app.AppCompatActivity;
+import android.widget.Button;
+import android.widget.TextView;
 
 
 public class GameActvity extends AppCompatActivity {
@@ -20,6 +22,18 @@ public class GameActvity extends AppCompatActivity {
         int correctAnswer = partA * partB;
         int wrongAnswer1 = correctAnswer - 1;
         int wrongAnswer2 = correctAnswer + 1;
+
+        //Here we get a working object based on either the button or Textview class and base as well as link our new objects directly to the appropriate UI elements that we created previously
+
+        TextView textObjectPartA = (TextView)findViewById(R.id.textPartA);
+
+        TextView textObjectPartB = (TextView)findViewById(R.id.textPartB);
+
+        Button buttonObjectChoice1 = (Button)findViewById(R.id.buttonChoice1);
+
+        Button buttonObjectChoice2 = (Button)findViewById(R.id.buttonChoice2);
+
+        Button buttonObjectChoice3 = (Button)findViewById(R.id.buttonChoice3);
 
     }
 
