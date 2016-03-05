@@ -1,9 +1,9 @@
 package com.christopherdmark.mathsample2;
 
+import android.support.v7.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 
-import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 
@@ -20,11 +20,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         buttonPLay.setOnClickListener(this);
 
     }
+
     @Override
-    public void onCLick(View view) {
-        Intent i;
-        i = new Intent(this, GameActvity.class);
-        startActivity(i);
+        public void onCLick(View view) {
+            Intent i;
+            i = new Intent(this, GameActivity.class);
+            startActivity(i);
     }
 
 
