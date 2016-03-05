@@ -50,6 +50,8 @@ public class GameActvity extends AppCompatActivity {
         buttonObjectChoice2.setText("" + wrongAnswer1);
         buttonObjectChoice3.setText("" + wrongAnswer2);
 
+
+
     }
 
 
