@@ -35,6 +35,21 @@ public class GameActvity extends AppCompatActivity {
 
         Button buttonObjectChoice3 = (Button)findViewById(R.id.buttonChoice3);
 
+        //Now we use the setText method of the class on our objects
+        //to show our variable values on the UI elemnents.
+        //Just like when we output to the console in the exercise -
+        //Expressions in Java, only now we use setText method
+        //to put the values in our variables onto the actual UI.
+
+        textObjectPartA.setText("" + partA);
+        textObjectPartB.setText("" + partB);
+
+        //which button receives which answer, at this stage is arbitrary.
+
+        buttonObjectChoice1.setText("" + correctAnswer);
+        buttonObjectChoice2.setText("" + wrongAnswer1);
+        buttonObjectChoice3.setText("" + wrongAnswer2);
+
     }
 
 
