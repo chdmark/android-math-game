@@ -84,7 +84,7 @@ public class GameActivity extends AppCompatActivity implements View.OnClickListe
                     answerGiven = Integer.parseInt("" + buttonObjectChoice2.getText());
 
                     if(answerGiven==correctAnswer) {
-                        Toast.makeText(getApplicationContext(), "Well done!", Toast.LENGTH_LONG).show();
+                        Toast.makeText(getApplicationContext(), "ScWell done!", Toast.LENGTH_LONG).show();
 
                     } else {
                         Toast.makeText(getApplicationContext(), "Sorry that's wrong", Toast.LENGTH_LONG).show();
