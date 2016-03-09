@@ -15,14 +15,14 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        final Button buttonPLay = (Button)findViewById(R.id.buttonPlay);
+        final Button buttonPlay = (Button)findViewById(R.id.buttonPlay);
 
-        buttonPLay.setOnClickListener(this);
+        buttonPlay.setOnClickListener(this);
 
     }
 
     @Override
-        public void onCLick(View view) {
+        public void onClick(View view) {
             Intent i;
             i = new Intent(this, GameActivity.class);
             startActivity(i);
